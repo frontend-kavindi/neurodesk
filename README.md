@@ -1,5 +1,6 @@
 # NeuroDesk — AI Productivity Dashboard
 
+> A production-grade SaaS frontend built  
 > Built with Next.js 14 App Router, TypeScript strict mode, and a fully componentized design system.
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
@@ -12,11 +13,31 @@
 
 ---
 
+![Dashboard](public/screenshots/dashboard.png)
+
+---
+
 ## Overview
 
 NeuroDesk is a full SaaS dashboard product — not a tutorial project. It demonstrates real frontend architecture decisions you would make at a top tech company: feature-based folder structure, separated state layers, streaming UI, accessible component design, and performance patterns like memoization and code splitting.
 
 Built as an internship portfolio project targeting FAANG frontend roles.
+
+---
+
+## Screenshots
+
+### AI Chat — Streaming markdown with code highlighting
+![Chat](public/screenshots/chat.png)
+
+### Analytics — KPI cards, animated charts, activity feed
+![Analytics](public/screenshots/analytics.png)
+
+### Workspace — Multi-workspace management and member roles
+![Workspace](public/screenshots/workspace.png)
+
+### Settings — Theme switcher, profile, preferences
+![Settings](public/screenshots/settings.png)
 
 ---
 
@@ -253,6 +274,19 @@ Then redeploy:
 ```bash
 vercel --prod
 ```
+
+---
+
+## Roadmap
+
+- [ ] Connect real LLM API (OpenAI / Anthropic)
+- [ ] Persistent storage with Prisma + PostgreSQL
+- [ ] Real-time notifications with Pusher
+- [ ] File upload support
+- [ ] OAuth providers (Google, GitHub)
+- [ ] Usage billing dashboard
+
+---
 
 ## Author
 
