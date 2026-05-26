@@ -291,7 +291,7 @@ vercel --prod
 ## Author
 
 **Kavindi Gamage**  
-Frontend Engineer  
+ 
 [GitHub](https://github.com/frontend-kavindi)
 
  
